@@ -9,6 +9,8 @@
  <script src="https://use.typekit.net/ddf6rro.js"></script>
  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+ <script type="text/javascript" src="js/scripts.js"></script>
+
  <link rel="stylesheet" href="css/styles.min.css">
 
     <!--[if lte IE 8]>
@@ -18,7 +20,7 @@
        <link rel="stylesheet" href="css/pure/grids-responsive-min.css">
        <!--<![endif]-->
 
-    </head>
+</head>
 
     <body>
        <div class="header">
@@ -151,29 +153,62 @@
    <h3 class="text-medium center text-blue-gray">( It takes just a couple seconds )</h3>
    <div class="pure-g">
       <div class="l-box pure-u-1 max-width">
-         <form>
+         <form name="Calculator" onSubmit="calculate(); return false">
             <div class="pure-u-1">
               <div class="number pure-u-1">1</div>
-              <p class="label">My clinic sees</p><input type="text" name="enter" value="" id="patients" size="4"/><p class="label">patients a week</p>
+              <p class="label">My clinic sees</p><input type="number" name="regularpatients" value="" id="patients" maxlength="5"/><p class="label">patients a week</p>
             </div>
             <div class="pure-u-1">
             <div class="number pure-u-1">2</div>
-              <p class="label">Each appoinment costs $</p><input type="text" name="enter" value="" id="appt-cost" size="4"/>
+              <p class="label">Each appointment costs <span class="orange">$</span></p><input type="number" name="apptcost" value="" id="appt-cost" maxlength="5"/>
             </div>
             <div class="pure-u-1">
             <div class="number pure-u-1">3</div>
               <p class="label">My clinic sees</p>
-              <input type="text" name="enter" value="" id="referrals" size="4"/>
+              <input type="number" name="referralpatients" value="" id="referrals" maxlength="5"/>
               <p class="label">referral patients a week</p>
             </div>
             <div class="center">
-              <button type="submit" class="button outline">Calculate</button>
+              <button type="submit" class="button outline" id="calculate-button">Calculate</button>
             </div>
          </form>
       </div>
+    </div>
+    <div class="results" id="results">
+    <div class="pure-g max-width">
+      <!-- <div class="max-width"> -->
+        <div class="pure-u-lg-1-3 pure-u-1">
+          <div class="time">
+            <div class="l-box">
+              <p>You&rsquo;d save</p>
+              <p class="highlight" id="results-time">#</p>
+              <p>of email &amp; phone a week</p>
+            </div>
+          </div>
+        </div>
+        <div class="pure-u-lg-1-3 pure-u-1">
+          <div class="patients">
+            <div class="l-box">
+              <p>You&rsquo;d see</p>
+              <p class="highlight" id="results-patients">#</p>
+              <p>more patients a year</p>
+            </div>
+          </div>
+        </div>
+        <div class="pure-u-lg-1-3 pure-u-1">
+          <div class="money">
+            <div class="l-box">
+              <p>You&rsquo;d recover</p>
+              <p class="highlight" id="results-money">#</p>
+              <p>a year</p>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
    </div>
 
-</div>
+</div> <!-- /calculator -->
 <div class="testimonials content-wrapper">
    <h3 class="title-darker-blue center">We <span class="heart"></span> Happy Clinics</h3>
    <div class="pure-g max-width">
