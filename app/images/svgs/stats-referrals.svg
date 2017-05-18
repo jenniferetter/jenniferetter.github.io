@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-9472 2280.888 60.636 57.138">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f37021;
+      }
+
+      .cls-2 {
+        fill: #1f3c53;
+      }
+    </style>
+  </defs>
+  <g id="Group_341" data-name="Group 341" transform="translate(-10272.86 -464)">
+    <path id="Subtraction_3" data-name="Subtraction 3" class="cls-1" d="M3940.528,527.25A27.473,27.473,0,0,1,3919.7,500.1c0-.221,0-.442.008-.662l6.284,6.025,7.676-7.381,8.562,7.381,5.569-5.863v.5l-7.27,27.151Zm-14.537-25.824h0l-5.9-6A27.993,27.993,0,0,1,3947.8,472v23.663l-5.569,5.763-8.563-7.479Z" transform="translate(-3118.84 2272.888)"/>
+    <g id="Group_163" data-name="Group 163" transform="translate(825.539 2744.888)">
+      <path id="Path_203" data-name="Path 203" class="cls-2" d="M130.887,28.768,123.5,56.356A28.56,28.56,0,1,0,138.273,1.179,28.233,28.233,0,0,0,130.887.2Z" transform="translate(-123.5 -0.2)"/>
+    </g>
+  </g>
+</svg>

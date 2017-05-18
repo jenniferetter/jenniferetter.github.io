@@ -1,0 +1,94 @@
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+   font-family: $base-font-family;
+}
+
+// Major Third typography scale
+h1, .h1 { font-size: $h1; } // 43px
+h2, .h2 { font-size: $h2; } // 31px
+h3, .h3 { font-size: $h3; } // 25px
+h4, .h4 { font-size: $h4; }  // 20px
+h5, p, .h5, .p { font-size: $h5; }  // 16px
+h6, .h6 { font-size: $h6; }   // 13px
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: $semi-bold;
+   margin: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+   line-height: $base-line-height;
+}
+
+.title-dark-blue { color: $dark-blue; }
+
+.title-darker-blue { color: $darker-blue; }
+
+.title-white { color: $white; }
+.title-book { font-weight: $book; }
+
+.text-dark-blue   { color: $dark-blue; }
+.text-darker-blue { color: $darker-blue; }
+
+.text-book        { font-weight: $book; }
+.text-medium      { font-weight: $medium; }
+.text-semi-bold   { font-weight: $semi-bold; }
+
+.stats-text-orange {
+   color: $accent;
+   margin-top: 12px;
+   text-transform: uppercase;
+   font-weight: $semi-bold;
+   letter-spacing: 0.15px;
+}
+.content-wrapper {
+   h3 {
+      margin: 0px 0px 40px 0px;
+   }
+}
+.heart:before {
+   content: '\2665';
+   color: $red;
+   font-size: $h3;
+}
+.testimonials {
+   p { margin: 0px 0px 20px;}
+   .name { margin-bottom: 5px;}
+   .job { margin: 0; }
+}
+.contact {
+   h3 { margin-bottom: 15px;}
+   label {
+      @extend .text-medium, .h5, .text-darker-blue;
+      margin-bottom: 10px;
+   }
+   
+   input, textarea { 
+      @extend .text-darker-blue, .text-medium;
+
+      /* asldjflasjdkfas */
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: $dark-blue;
+          font-weight: $book;
+        }
+      &::-moz-placeholder { /* Firefox 19+ */
+          color: $dark-blue;
+          font-weight: $book;
+        }
+      &:-ms-input-placeholder { /* IE 10+ */
+          color: $dark-blue;
+          font-weight: $book;
+        }
+      &:-moz-placeholder { /* Firefox 18- */
+          color: $dark-blue;
+          font-weight: $book;
+        }
+   }
+
+   .subhead {
+      @extend .text-medium, .text-dark-blue, .h4;
+      margin-top: 0px;
+   }
+   .req {
+      color: $accent;
+   }
+}

@@ -1,0 +1,316 @@
+html, button, input, select, textarea, .pure-g [class*="pure-u"] {
+  font-family: "freight-sans-pro", sans-serif; }
+
+h1, .h1 {
+  font-size: 2.688em; }
+
+h2, .h2 {
+  font-size: 1.953em; }
+
+h3, .h3 {
+  font-size: 1.563em; }
+
+h4, .h4, .contact .subhead {
+  font-size: 1.25em; }
+
+h5, p, .h5, .contact label, .p {
+  font-size: 1em; }
+
+h6, .h6 {
+  font-size: 0.8em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin: 0; }
+
+.h1, .h2, .h3, .h4, .contact .subhead, .h5, .contact label, .h6 {
+  line-height: 1.4; }
+
+.title-dark-blue {
+  color: #4E6170; }
+
+.title-darker-blue {
+  color: #182538; }
+
+.title-white {
+  color: #FFFFFF; }
+
+.title-book {
+  font-weight: 400; }
+
+.text-dark-blue, .contact .subhead {
+  color: #4E6170; }
+
+.text-darker-blue, .contact label, .contact input, .contact textarea {
+  color: #182538; }
+
+.text-book {
+  font-weight: 400; }
+
+.text-medium, .contact label, .contact input, .contact textarea, .contact .subhead {
+  font-weight: 500; }
+
+.text-semi-bold {
+  font-weight: 600; }
+
+.stats-text-orange {
+  color: #F37021;
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.15px; }
+
+.content-wrapper h3 {
+  margin: 0px 0px 40px 0px; }
+
+.heart:before {
+  content: '\2665';
+  color: #E14256;
+  font-size: 1.563em; }
+
+.testimonials p {
+  margin: 0px 0px 20px; }
+
+.testimonials .name {
+  margin-bottom: 5px; }
+
+.testimonials .job {
+  margin: 0; }
+
+.contact h3 {
+  margin-bottom: 15px; }
+
+.contact label {
+  margin-bottom: 10px; }
+
+.contact input, .contact textarea {
+  /* asldjflasjdkfas */ }
+  .contact input::-webkit-input-placeholder, .contact textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #4E6170;
+    font-weight: 400; }
+  .contact input::-moz-placeholder, .contact textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #4E6170;
+    font-weight: 400; }
+  .contact input:-ms-input-placeholder, .contact textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #4E6170;
+    font-weight: 400; }
+  .contact input:-moz-placeholder, .contact textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #4E6170;
+    font-weight: 400; }
+
+.contact .subhead {
+  margin-top: 0px; }
+
+.contact .req {
+  color: #F37021; }
+
+.pure-menu .pure-menu-fixed {
+  border-bottom: none;
+  z-index: 4; }
+
+.pure-menu .pure-menu-list {
+  margin: 30px 30px 0px; }
+
+.home-menu {
+  text-align: center; }
+  .home-menu a.logo {
+    position: relative;
+    display: inline-block;
+    width: 145px;
+    height: 27px;
+    margin: 25px; }
+    .home-menu a.logo:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+  .home-menu object {
+    width: 100%; }
+  .home-menu .button {
+    margin-left: 15px; }
+
+@media (min-width: 48em) {
+  .home-menu {
+    text-align: left; }
+    .home-menu ul {
+      float: right; } }
+
+body {
+  background-color: #f8f8f8; }
+
+.content-wrapper {
+  margin: 0 auto;
+  padding: 60px 0px 60px; }
+  .content-wrapper .center {
+    text-align: center; }
+
+.max-width {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+.center {
+  text-align: center; }
+
+.bg-gray {
+  background-color: #F2F2F2; }
+
+.bg-dark-blue {
+  background-color: #182538; }
+
+.bg-white {
+  background-color: #FFFFFF; }
+
+.l-box {
+  padding: 0px 20px; }
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 375px; }
+
+.splash {
+  /* absolute center .splash within .splash-container */
+  width: 80%;
+  height: 50%;
+  margin: 130px auto;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center; }
+  .splash .cta {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #F37021;
+    text-decoration: none; }
+
+.splash-image {
+  background-image: url(/images/hero.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  width: 100%;
+  height: 615px; }
+
+.splash-head {
+  margin: 0px 0px 5px 0px; }
+
+.splash-subhead {
+  color: #4E6170;
+  font-weight: 500;
+  margin: 0px 0px 40px 0px; }
+
+.features .comm {
+  max-width: 492px; }
+
+.section {
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 200px;
+  padding: 60px 0px;
+  border-bottom: 3px solid #F2F2F2; }
+  .section:last-child {
+    border-bottom: 0px; }
+
+.stats {
+  text-align: center;
+  padding-bottom: 60px; }
+  .stats .l-box {
+    padding-top: 0px; }
+  .stats .svg {
+    height: 60px;
+    margin-bottom: 30px; }
+  .stats .wait-time {
+    max-width: 72px; }
+  .stats .cancellations {
+    max-width: 83px; }
+  .stats .referrals {
+    max-width: 61px; }
+  .stats .lost-revenue {
+    max-width: 100px; }
+
+.testimonials {
+  background-color: #DBECF2; }
+  .testimonials .l-box {
+    padding: 30px; }
+  .testimonials .avatar {
+    border-radius: 50px; }
+  .testimonials .vertical-center {
+    height: 90px; }
+  .testimonials .bg-white {
+    margin-bottom: 20px; }
+  .testimonials .margin-right {
+    margin-right: 20px; }
+
+.contact form {
+  margin-top: 20px; }
+
+.contact input, .contact textarea {
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  border: 1px solid #F2F2F2 !important;
+  padding: 12px 15px !important; }
+  .contact input:focus, .contact textarea:focus {
+    border: 1px solid #F37021 !important; }
+
+.contact .max-width {
+  max-width: 800px; }
+
+.contact .l-box {
+  padding: 0px 20px 10px; }
+
+.partners .max-width {
+  max-width: 640px; }
+
+.partners .logo {
+  text-align: center; }
+
+.partners .hipaa {
+  opacity: 0.5; }
+
+.partners .himss, .partners .stanford, .partners .mgma {
+  opacity: 0.4; }
+
+.partners .stanford {
+  margin-top: 6px; }
+
+.partners .hipaa {
+  margin-top: 3px; }
+
+.button, input[type="submit"] {
+  font-weight: 600;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background-color: none;
+  min-width: 60px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-family: "freight-sans-pro", sans-serif; }
+  .button.primary, input[type="submit"].primary {
+    background-color: #F37021;
+    color: #FFFFFF; }
+  .button.solid, input[type="submit"].solid {
+    padding: 12px 15px; }
+  .button.outline, input[type="submit"].outline {
+    border: 1px solid #B8C7CC;
+    color: #4E6170;
+    padding: 11px 13.75px; }
+    .button.outline:hover, input[type="submit"].outline:hover {
+      border: 2px solid #A1AEB3;
+      padding: 10px 13px; }
+    .button.outline:active, input[type="submit"].outline:active {
+      border-color: #4E6170; }
+
+input[type="submit"] {
+  margin-top: 30px; }
