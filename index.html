@@ -28,8 +28,8 @@
          </a>
 
          <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="#" class="button outline">Login</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-button primary button solid">Request a Demo</a></li>
+            <li class="pure-menu-item"><a href="https://app.lumahealth.io/" class="button outline">Login</a></li>
+            <li class="pure-menu-item"><a href="#contact-us" class="pure-button primary button solid">Request a Demo</a></li>
          </ul>
       </div>
    </div>
@@ -38,13 +38,13 @@
       <h1 class="splash-head title-darker-blue">Seeing a doctor should be easy.</h1>
       <h3 class="splash-subhead">Own your patient care through mobile</h3>
       <p>
-         <a href="/" class="cta">See How It Works</a>
+         <a href="#contact-us" class="cta">See How It Works</a>
       </p>
    </div>
 </div>
 <div class="splash-image"></div>
 <!-- /hero -->
-<div class="features content-wrapper bg-white">
+<div class="features content-wrapper bg-white" id="#contact-us">
    <h2 class="center title-darker-blue">A Smarter Way to Care</h2>
    <div class="pure-g section">
       <div class="pure-u-1 pure-u-md-1-2">
@@ -144,13 +144,31 @@
 </div>
 </div>
 <div class="calculator content-wrapper bg-dark-blue">
+  <div class="center lightbulb">
+    <object type="image/svg+xml" data="images/svgs/lightbulb.svg" width="42">*Lightbulb*</object>
+  </div>
    <h2 class="title-white center">Let&rsquo;s See What Luma Can Do</h2>
+   <h3 class="text-medium center text-blue-gray">( It takes just a couple seconds )</h3>
    <div class="pure-g">
-      <div class="l-box pure-u-1 center">
+      <div class="l-box pure-u-1 max-width">
          <form>
-            <input type="text" name="enter" value="" id="patients"/>
-            <input type="text" name="enter" value="" id="appt-cost"/>
-            <input type="text" name="enter" value="" id="referrals"/>
+            <div class="pure-u-1">
+              <div class="number pure-u-1">1</div>
+              <p class="label">My clinic sees</p><input type="text" name="enter" value="" id="patients" size="4"/><p class="label">patients a week</p>
+            </div>
+            <div class="pure-u-1">
+            <div class="number pure-u-1">2</div>
+              <p class="label">Each appoinment costs $</p><input type="text" name="enter" value="" id="appt-cost" size="4"/>
+            </div>
+            <div class="pure-u-1">
+            <div class="number pure-u-1">3</div>
+              <p class="label">My clinic sees</p>
+              <input type="text" name="enter" value="" id="referrals" size="4"/>
+              <p class="label">referral patients a week</p>
+            </div>
+            <div class="center">
+              <button type="submit" class="button outline">Calculate</button>
+            </div>
          </form>
       </div>
    </div>
@@ -237,7 +255,7 @@
 </div> <!-- testimonials -->
 
 <!-- oh dear god help us -->
-<div class="contact content-wrapper bg-gray">
+<div class="contact content-wrapper bg-gray" id="contact-us">
    <h3 class="title-darker-blue center">Wanna Learn More?</h3>
    <p class="subhead center">Let us know and we&rsquo;ll be in touch.</p>
    <div class="pure-g max-width">
@@ -263,7 +281,7 @@
       <div class="pure-u-1 pure-u-md-1-2">
          <div class="l-box">
             <label for="organization">Number of Providers<span class="req">*</span></label>
-            <input type="text" name="num-providers" value="" size="40" class="pure-u-1" aria-required="true" aria-invalid="false" placeholder="# of providers in your practice"/>
+            <input type="number" name="num-providers" value="" size="40" class="pure-u-1" aria-required="true" aria-invalid="false" placeholder="# of providers in your practice"/>
          </div>
       </div>
       <div class="pure-u-1">
